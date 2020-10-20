@@ -5,5 +5,5 @@ myImage.addEventListener('click', function() {
       myImage.setAttribute('src', 'jose-sanjurgo.jpg');
     } else {
       myImage.setAttribute('src', 'franco.jpg');
-    }
+    } 
 });
