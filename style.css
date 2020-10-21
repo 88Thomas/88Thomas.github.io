@@ -2,6 +2,18 @@ html {
   background-color: #C9E02B;
   font-family: 'Cinzel', serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
 }
+h4 {
+  font-size: 20px; /*taille*/ 
+  color: #9300AA;
+  font-weight : bold; /*met en gras*/
+  text-decoration : underline; /*souligne le texte*/ 
+}
+h5 {
+  font-size: 20px; /*taille*/ 
+  color: #6201F7;
+  font-weight : bold; /*met en gras*/
+  text-decoration : underline; /*souligne le texte*/ 
+}
 h1 {
   font-size: 30px; /*taille*/
   text-align: center;  
@@ -42,4 +54,3 @@ img {
   margin: 0 auto;
   border: 2px solid black;
 }
-.imageCentre {text-align:center} /* pour centrer une image*/
