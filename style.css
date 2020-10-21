@@ -3,22 +3,43 @@ html {
   font-family: 'Cinzel', serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
 }
 h1 {
-  font-size: 30px;
+  font-size: 30px; /*taille*/
   text-align: center;  
-  color: #F60748;
+  color: #FE0101;
   text-shadow: 2px 2px black;
-}
-p {
-  font-size: 15px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
-}
-body {
   width: 600px;
   margin: 0 auto;
   background-color: #FF9500;
   padding: 5px 20px 20px 20px;
   border: 5px solid black;
+  font-weight : bold; /*met en gras*/
+  text-decoration : underline; /*souligne le texte*/
+}
+h2 {
+  font-style : italic; /*met le texte en italique*/
+  text-decoration : underline; /*souligne le texte*/
+  font-size: 20px; /*taille*/
+  font-weight : normal; /*met le texte en mode normal*/
+}
+h3 {
+  font-size: 25px; /*taille*/
+  text-align: center;  
+  color: #FE0101;
+  font-weight : bold; /*met en gras*/
+  text-decoration : underline; /*souligne le texte*/
+}
+p {
+  font-size: 15px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
+  text-align: justify;
+  text-indent: 40px;
+}
+li {
+  list-style-type: disc;
+  text-align: justify;
 }
 img {
   display: block;
   margin: 0 auto;
+  border: 2px solid black;
 }
+.imageCentre {text-align:center} /* pour centrer une image*/
