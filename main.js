@@ -77,26 +77,42 @@ ab.addEventListener('click', function() {
 let myImage = document.images['natio'];
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'franco.jpg') {
-      myImage.setAttribute('src', 'jose-sanjurgo.jpg');
-    } else if (mySrc === 'jose-sanjurgo.jpg') {
-      myImage.setAttribute('src', 'salazar.jpg');
-    } else if (mySrc === 'salazar.jpg') {
-      myImage.setAttribute('src', 'hitler.jpg');
-    } else if (mySrc === 'salazar.jpg') {
-      myImage.setAttribute('src', 'hitler.jpg');
-    } else if (mySrc === 'hitler.jpg') {
-      myImage.setAttribute('src', 'mussolini.jpg');
-    } else if (mySrc === 'mussolini.jpg') {
-      myImage.setAttribute('src', 'franco.jpg');
+    if (mySrc === 'reconquista/franco.jpg') {
+      myImage.setAttribute('src', 'reconquista/jose-sanjurgo.jpg');
+    } else if (mySrc === 'reconquista/jose-sanjurgo.jpg') {
+      myImage.setAttribute('src', 'reconquista/salazar.jpg');
+    } else if (mySrc === 'reconquista/salazar.jpg') {
+      myImage.setAttribute('src', 'reconquista/hitler.jpg');
+    } else if (mySrc === 'reconquista/salazar.jpg') {
+      myImage.setAttribute('src', 'reconquista/hitler.jpg');
+    } else if (mySrc === 'reconquista/hitler.jpg') {
+      myImage.setAttribute('src', 'reconquista/mussolini.jpg');
+    } else if (mySrc === 'reconquista/mussolini.jpg') {
+      myImage.setAttribute('src', 'reconquista/rivera.jpg');
+    } else if (mySrc === 'reconquista/rivera.jpg') {
+      myImage.setAttribute('src', 'reconquista/mota.jpg');
+    } else if (mySrc === 'reconquista/mota.jpg') {
+      myImage.setAttribute('src', 'reconquista/moscardo.jpg');
+    } else if (mySrc === 'reconquista/moscardo.jpg') {
+      myImage.setAttribute('src', 'reconquista/yague.jpg');
+    } else if (mySrc === 'reconquista/yague.jpg') {
+      myImage.setAttribute('src', 'reconquista/franco.jpg');
     } 
 });
 let myImage2 = document.images['juif'];
 myImage2.addEventListener('click', function() {
     let mySrc = myImage2.getAttribute('src');
-    if (mySrc === 'azana.jpg') {
-      myImage2.setAttribute('src', 'staline.jpg');
-    } else if (mySrc === 'staline.jpg') {
-      myImage2.setAttribute('src', 'azana.jpg');
+    if (mySrc === 'raie/azana.jpg') {
+      myImage2.setAttribute('src', 'raie/staline.jpg');
+    } else if (mySrc === 'raie/staline.jpg') {
+      myImage2.setAttribute('src', 'raie/durruti.jpg');
+    } else if (mySrc === 'raie/durruti.jpg') {
+      myImage2.setAttribute('src', 'raie/aguirre.jpg');
+    } else if (mySrc === 'raie/aguirre.jpg') {
+      myImage2.setAttribute('src', 'raie/gonzalez.jpg');
+    } else if (mySrc === 'raie/gonzalez.jpg') {
+      myImage2.setAttribute('src', 'raie/compagnys.jpg');
+    } else if (mySrc === 'raie/compagnys.jpg') {
+      myImage2.setAttribute('src', 'raie/azana.jpg');
     }
   });
