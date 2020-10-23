@@ -5,9 +5,9 @@ html {
 h1 {
     font-size: 30px; /*taille*/
     text-align: center;  
-    color: #FE0101;
+    color: white;
     text-shadow: 2px 2px black;
-    width: 50%;
+    width: 98%;
     margin: 0 auto;
     background-color: #1049E7;
     padding: 10px 10px 20px 10px;
@@ -19,7 +19,7 @@ h2 {
   font-size: 30px; /*taille*/
   text-align: center;  
   color: #000000;
-  width: 95%;
+  width: 98%;
   background-color: #8E8243;
   padding: 10px 10px 10px 10px;
   border: 5px solid black;
