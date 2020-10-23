@@ -1,2 +1,2 @@
-# BrocanteLuzy.github.io
-Site de la Brocante du village de Luzy dans la Nièvre.
+# paroissesteclothilde.github.io
+Site de la paroisse VCO Sainte Clothilde
