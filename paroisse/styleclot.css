@@ -1,0 +1,59 @@
+html {
+    background-color: #18AC00;
+    font-family: 'Cinzel', serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
+}
+h1 {
+    font-size: 30px; /*taille*/
+    text-align: center;  
+    color: #FE0101;
+    text-shadow: 2px 2px black;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #1049E7;
+    padding: 10px 10px 20px 10px;
+    border: 5px solid black;
+    font-weight : bold; /*met en gras*/
+    text-decoration : underline; /*souligne le texte*/
+}
+h2 {
+  font-size: 30px; /*taille*/
+  text-align: center;  
+  color: #F1690E;
+  text-shadow: 2px 2px black;
+  width: 95%;
+  background-color: #0EDAF1;
+  padding: 10px 10px 10px 10px;
+  border: 5px solid black;
+  font-weight : bold; /*met en gras*/
+  text-decoration : underline; /*souligne le texte*/
+}
+h3 {
+  font-size: 15px; /*taille*/
+  text-align: center;  
+  color: #000000;
+  text-decoration : underline; /*souligne le texte*/
+}
+h4 {
+  font-size: 15px; /*taille*/  
+  color: #000000;
+  text-align: justify;
+}
+h5 {
+  font-size: 20px; /*taille*/ 
+  color: #CC0601;
+  text-decoration: underline;
+}
+h6{
+  font-size: 15px; /*taille*/ 
+  color: #CC0601;
+}
+td { /* Toutes les cellules des tableaux... */
+  border: 1px solid black; /* auront une bordure de 1px */
+}
+th {
+  border: 1px solid black; /* auront une bordure de 1px */
+}
+table {
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    text-align: justify;
+}
