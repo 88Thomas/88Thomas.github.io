@@ -18,9 +18,10 @@ h1 {
 h2 {
   font-size: 30px; /*taille*/
   text-align: center;  
-  color: #000000;
+  color: white;
+  text-shadow: 2px 2px black;
   width: 98%;
-  background-color: #8E8243;
+  background-color: #1049E7;
   padding: 10px 10px 10px 10px;
   border: 5px solid black;
   font-weight : bold; /*met en gras*/
