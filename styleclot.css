@@ -3,6 +3,9 @@ html {
     font-family: 'Cinzel', serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
     font-size: 20px;
 }
+p {
+  text-align: justify;
+}
 h1 {
     font-size: 30px; /*taille*/
     text-align: center;  
