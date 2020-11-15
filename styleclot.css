@@ -64,3 +64,11 @@ img {
   margin: 0 auto;
   border: 5px solid black;
 }
+.col { 
+  float: left; 
+  width: 17%; 
+  text-align: center 
+}
+.clear { 
+  clear: both; 
+}
