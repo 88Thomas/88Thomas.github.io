@@ -1,6 +1,5 @@
 html {
     background-color: #8EA693;
-    font-family: 'Cinzel', serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
     font-size: 20px;
 }
 p {
@@ -8,7 +7,7 @@ p {
   text-indent: 5%;
 }
 h1 {
-    font-size: 30px; /*taille*/
+    font-size: 35px; /*taille*/
     text-align: center;  
     color: white;
     text-shadow: 2px 2px black;
@@ -21,7 +20,7 @@ h1 {
     text-decoration : underline; /*souligne le texte*/
 }
 h2 {
-  font-size: 30px; /*taille*/
+  font-size: 35px; /*taille*/
   font-size: 2vw;
   text-align: center;  
   color: white;
@@ -30,23 +29,23 @@ h2 {
   text-decoration : underline; /*souligne le texte*/
 } 
 h3 {
-  font-size: 20px; /*taille*/
+  font-size: 25px; /*taille*/
   text-align: center;  
   color: #000000;
   text-decoration : underline; /*souligne le texte*/
 }
 h4 {
-  font-size: 20px; /*taille*/  
+  font-size: 25px; /*taille*/  
   color: #000000;
   text-align: justify;
 }
 h5 {
-  font-size: 25px; /*taille*/ 
+  font-size: 30px; /*taille*/ 
   color: #CC0601;
   text-decoration: underline;
 }
 h6{
-  font-size: 20px; /*taille*/ 
+  font-size: 25px; /*taille*/ 
   color: #CC0601;
 }
 td { /* Toutes les cellules des tableaux... */
