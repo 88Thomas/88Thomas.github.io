@@ -66,8 +66,30 @@ img {
 .col { 
   float: left; 
   width: 17%; 
-  text-align: center 
+  text-align: center;
 }
 .clear { 
   clear: both; 
+}
+.titrecanon {
+  font-weight: bold;
+  text-indent: 0%;
+}
+.alignement {
+  text-align: justify;
+}
+.centre {
+  text-align: center;
+}
+.gauche {
+  text-align: left;
+}
+.pasgras {
+  font-weight: normal;
+}
+.gras {
+  font-weight: bold;
+}
+.noindent {
+  text-indent: 0%;
 }
