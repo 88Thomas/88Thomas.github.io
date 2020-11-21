@@ -93,3 +93,13 @@ img {
 .noindent {
   text-indent: 0%;
 }
+.passouligner {
+  text-decoration: none;
+}
+.mois {
+  text-decoration: none;
+  color: white;
+}
+.pasretour {
+  display:inline-block;
+}
