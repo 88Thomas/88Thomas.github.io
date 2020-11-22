@@ -66,6 +66,12 @@ img {
   margin: 0 auto;
   border: 5px solid black;
 }
+video {
+  display:block;
+  width:65%;
+  margin:0 auto 35px auto;
+  padding: 10px 10px 20px 10px;
+}
 .menu { 
   float: left; 
   width: 17%; 
