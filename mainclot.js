@@ -7,3 +7,4 @@ im.addEventListener('click', function() {
       im.setAttribute('src', 'images/clotilde.jpg');
     } 
   });
+
