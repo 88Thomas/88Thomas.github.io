@@ -70,14 +70,16 @@ video {
   display:block;
   width:65%;
   margin:0 auto 35px auto;
-  padding: 10px 10px 20px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
 }
 iframe {
   display:block;
   width:65%;
   height: 700px;
   margin:0 auto 35px auto;
-  padding: 10px 10px 20px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: black;
 }
 .titrecanon {
   font-weight: bold;
