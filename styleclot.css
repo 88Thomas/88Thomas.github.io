@@ -1,6 +1,6 @@
 html {
     background-color: #8EA693;
-    font-size: 20px;
+    font-size: 25px;
 }
 p {
   text-align: justify;
@@ -72,10 +72,12 @@ video {
   margin:0 auto 35px auto;
   padding: 10px 10px 20px 10px;
 }
-.menu { 
-  float: left; 
-  width: 17%; 
-  text-align: center;
+iframe {
+  display:block;
+  width:65%;
+  height: 500px;
+  margin:0 auto 35px auto;
+  padding: 10px 10px 20px 10px;
 }
 .titrecanon {
   font-weight: bold;
@@ -108,4 +110,7 @@ video {
 }
 .pasretour {
   display:inline-block;
+}
+.liste {
+  list-style-type: square;
 }
