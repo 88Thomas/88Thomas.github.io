@@ -4,22 +4,23 @@
         <meta charset="utf-8">
         <title>Paroisse Orthodoxe Sainte Clotilde</title> 
         <link href="styleclot.css" rel="stylesheet" type="text/css">
+
     </head>
     <body>
         <a href="index.html"><h1>Paroisse Orthodoxe Sainte Clotilde</h1></a>
-        <table class="fondcouleur" id="mon_titre">
-            <tr>
-                <td><a href="calendrier/calendrierp.html"><h2>Le Calendrier Paroissial</h2></a></td>
-                <td><a href="videos/video.html"><h2>Nos Vidéos</h2></a></td>
-                <td><a href="livre/livre.html"><h2>Les Livres Orthodoxes</h2></a></td>
-                <td><a href="vco/vco.html"><h2>Qui sont les VCO?</h2></a></td>
-                <td><a href="boutique/boutique.html"><h2>Boutique Orthodoxe</h2></a></td>
-                <td><a href="pere/pere.html"><h2>Les Textes Patristiques</h2></a></td>
-                <td><a href="canon/canon.html"><h2>Les Saints Canons</h2></a></td>
-             </tr>
-        </table>
+        <div id="menu-index"></div>
         <marquee scrollamount="10" style="background-color: white;"><p style="color: red;font-weight: bold;font-size: 1.5vw;">Pas de Liturgie à Paris. Voir avec notre prêtre pour assister à la Liturgie.</p></marquee>
         <img src="images/clotilde.jpg" name="clot">
+        <script>let im = document.images['clot'];
+            im.addEventListener('click', function() {
+                let mySrc = im.getAttribute('src');
+                if (mySrc === 'images/clotilde.jpg') {
+                  im.setAttribute('src', 'images/clovis.jpg');
+                } else if (mySrc === 'images/clovis.jpg') {
+                  im.setAttribute('src', 'images/clotilde.jpg');
+                } 
+              });
+        </script>
         <p>Bienvenue sur la page de la paroisse Orthodoxe missionnaire Sainte Clotilde. Les offices y sont célébrés en français. Elle dessert la ville de Paris. Vous pouvez nous retrouver sur You Tube, le nom de notre chaîne est 
             <a href="https://www.youtube.com/channel/UCF6veQlUbxIPYSTPVCeY_tw">Tradition Orthodoxe</a>. Nous possedons également une page Facebook, qui s'appelle 
             <a href="https://www.facebook.com/Paroisse-Orthodoxe-Ste-Clotilde-643380069134986">Paroisse Orthodoxe Ste-Clotilde</a>. Si vous habitez vers la Bretagne, il y a une paroisse amie, qui dépend du même prêtre. Voici sa page Facebook : 
@@ -27,6 +28,7 @@
         </p>
         <p>Notre paroisse s'appelle ainsi car nous avons beaucoup de vénération pour Sainte Clotilde. Elle était Reine des Francs et a convertit son mari, notre Roy, Saint Clovis 1er. Ainsi, la France devenait Orthodoxe.</p>
         <p>Sur cette page, vous pourrez trouver tout ce qui concerne l'enseignement chrétien authentique, préservé dans l'Eglise Orthodoxe.</p>
-        <script src="mainclot.js"></script>
+        <p>Voici notre calendrier paroissial : <a href="calendrier/calendrierp.html">Calendrier Paroissial</a></p>
+        <script type="text/javascript" src="mainclot.js"></script>
     </body>
 </html>
