@@ -20,7 +20,7 @@ h1 {
     text-decoration : underline; /*souligne le texte*/
 }
 h1:hover{
-  background-color:#A4A4A4;
+  background-color:black;
 }
 h2 {
   font-size: 35px; /*taille*/
@@ -32,7 +32,7 @@ h2 {
   text-decoration : underline; /*souligne le texte*/
 } 
 h2:hover{
-  background-color:#A4A4A4;
+  background-color: black;
 }
 h3 {
   font-size: 25px; /*taille*/
