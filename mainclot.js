@@ -16,23 +16,23 @@ var const3 = "<table class='fondcouleur'><tr><td><a href='../../../guide/guide.h
 var intrullo = "<table class='fondcouleur'><tr><td><a href='../../../../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../../../../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../../../../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../../../../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../../../../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../../../../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../../../canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
 //variable pour le menu concile local
 var concileloc = "<table class='fondcouleur'><tr><td><a href='../../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu guide
+var guide = "<table class='fondcouleur'><tr><td><a href='guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>";
+//variable pour le menu livre
+var livre = "<table class='fondcouleur'><tr><td><a href='../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu livre père Guettée
+var livrepguettee = "<table class='fondcouleur'><tr><td><a href='../../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu livre père Guettée : Histoire de l'Eglise
+var livrepguetteehisteglise = "<table class='fondcouleur'><tr><td><a href='../../../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../../../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../../livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../../../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../../../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../../../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../../../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu textes patristiques
+var peres = "<table class='fondcouleur'><tr><td><a href='../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu vco
+var vco = "<table class='fondcouleur'><tr><td><a href='../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../videos/video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu vidéo
+var video = "<table class='fondcouleur'><tr><td><a href='../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
+//variable pour le menu sous vidéo
+var sousvideo = "<table class='fondcouleur'><tr><td><a href='../../guide/guide.html'><h2>Guide pour Catéchumène</h2></a></td><td><a href='../video.html'><h2>Nos Vidéos</h2></a></td><td><a href='../../livre/livre.html'><h2>Les Livres Orthodoxes</h2></a></td><td><a href='../../vco/vco.html'><h2>Qui sont les VCO?</h2></a></td><td><a href='../../boutique/boutique.html'><h2>Boutique Orthodoxe</h2></a></td><td><a href='../../pere/pere.html'><h2>Les Textes Patristiques</h2></a></td><td><a href='../../canon/canon.html'><h2>Les Saints Conciles</h2></a></td></tr></table>"
 /*//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
-var
-//variable pour le menu
 var
 //variable pour le menu
 var
@@ -77,5 +77,29 @@ function depart_general() {
     }
     if (document.getElementById("menu-concileloc")) {
         document.getElementById("menu-concileloc").innerHTML = concileloc;
+    }
+    if (document.getElementById("menu-guide")) {
+        document.getElementById("menu-guide").innerHTML = guide;
+    }
+    if (document.getElementById("menu-livre")) {
+        document.getElementById("menu-livre").innerHTML = livre;
+    }
+    if (document.getElementById("menu-livrepguettee")) {
+        document.getElementById("menu-livrepguettee").innerHTML = livrepguettee;
+    }
+    if (document.getElementById("menu-livrepguetteehisteglise")) {
+        document.getElementById("menu-livrepguetteehisteglise").innerHTML = livrepguetteehisteglise;
+    }
+    if (document.getElementById("menu-peres")) {
+        document.getElementById("menu-peres").innerHTML = peres;
+    }
+    if (document.getElementById("menu-vco")) {
+        document.getElementById("menu-vco").innerHTML = vco;
+    }
+    if (document.getElementById("menu-video")) {
+        document.getElementById("menu-video").innerHTML = video;
+    }
+    if (document.getElementById("menu-sousvideo")) {
+        document.getElementById("menu-sousvideo").innerHTML = sousvideo;
     }
 }
