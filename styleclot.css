@@ -2,6 +2,9 @@ html {
     background-color: #8EA693;
     font-size: 25px;
 }
+body {
+  margin-left: 10%; 
+}
 p {
   text-align: justify;
   text-indent: 5%;
