@@ -127,4 +127,14 @@ iframe {
 .liste {
   list-style-type: square;
 }
+.lieuliturgie {
+  text-decoration: none;
+  margin-bottom: 3%;
+}
+.largeur10 {
+  width: 10%;
+}
+.largeur100 {
+  width: 100%;
+}
 
