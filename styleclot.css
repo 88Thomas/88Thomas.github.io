@@ -80,9 +80,8 @@ table {
 }
 img {
   display: block;
-  margin: 0 auto;
+  margin: 0.5 auto;
   border: 5px solid black;
-  padding: 10px 10px 20px 10px;
 }
 video {
   display:block;
