@@ -1,0 +1,47 @@
+html {
+    background-color: white;
+    font-size: 25px;
+}
+img, table, td, blockquote, code, pre, textarea, input, iframe, object, embed, video {
+    max-width: 99%;
+}
+body {
+    min-width: 320px;
+}
+p {
+    text-align: justify;
+    text-indent: 5%;
+}
+a:hover {
+    background-color:white;
+}
+h1 {
+    font-size: 35px; /*taille*/
+    text-align: center;  
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 0.5% auto;
+    background-color: #1049E7;
+    padding: 10px 10px 20px 10px;
+    border: 5px solid black;
+    font-weight : bold; /*met en gras*/
+    text-decoration : underline; /*souligne le texte*/
+}
+h1:hover{
+    background-color:black;
+}
+h3 {
+    font-size: 25px; /*taille*/
+    text-align: center;  
+    color: #000000;
+    text-decoration : underline; /*souligne le texte*/
+}
+img {
+    display: block;
+    margin: 1% auto;
+    border: 5px solid black;
+}
+td { /* Toutes les cellules des tableaux... */
+    border: 1px solid black; /* auront une bordure de 1px */
+    width: 500px;
+}
